@@ -31,9 +31,11 @@
 	<title>{status}</title>
 </svelte:head>
 
-<h1>{status}</h1>
+<div class="text-center py-48">
+	<h1>{status}</h1>
 
-<p>{error.message}</p>
+	<p>{error.message}</p>
+</div>
 
 {#if dev && error.stack}
 	<pre>{error.stack}</pre>
