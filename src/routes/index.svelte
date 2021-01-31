@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>Intro</title>
+  <title>Highseas - Home</title>
 </svelte:head>
 
 <Hero
@@ -27,14 +27,15 @@
 	<ContentBox
 		title="Tools used"
 		text="This is built with:
-
-		* Svelte + Sapper
-		* Tailwindcss
-		
+		<ul>
+			<li> Svelte + Sapper </li>
+			<li> Tailwindcss
+		</ul>
 		I'll be updating it with a data visualization tool, probably one of: 
-		
-		* D3js
-		* Chartjs"
+		<ul>
+			<li> D3js </li>
+			<li> Chartjs </li>
+		</ul>"
 	/>
 
 </div>
