@@ -27,15 +27,19 @@
 	<ContentBox
 		title="Tools used"
 		text="This is built with:
+		<br>
 		<ul>
-			<li> Svelte + Sapper </li>
-			<li> Tailwindcss
+			<strong> <li> Svelte + Sapper </li> </strong>
+			<strong> <li> Tailwindcss </li> </strong>
 		</ul>
-		I'll be updating it with a data visualization tool, probably one of: 
+		<br>
+		I'll be updating it with a data visualization tool, probably one of : 
+		<br>
 		<ul>
-			<li> D3js </li>
-			<li> Chartjs </li>
-		</ul>"
+			<strong> <li> D3js </li> </strong>
+			<strong> <li> Chartjs </li> </strong>
+		</ul>
+		<br>"
 	/>
 
 </div>
