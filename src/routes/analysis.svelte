@@ -50,7 +50,7 @@
 	/>
 
 	<ContentBox
-		text="Seems to confirm the first view. Let's zoom in to see better."
+		text="Zooming to have a clearer view of the different slopes. We can indeed see that there is a 'warm' group that has a different profile than the others."
 	/>
 
 	<Card
@@ -59,8 +59,12 @@
 	/>
 
 	<ContentBox
-	text=""
+	text="Now performing a similar plotting of the <code>S</code> values. Already interesting is the fact that apart from a small offset, the curves have a decently recognizable profile throughout the <code>50-900</code> band, which means a pattern can surely be determined in the end."
 	/>
+	
+	<ContentBox
+	text="It is already pretty noticeable that the curves depend on the hue range. What we could call 'intense' vs 'soft' colors, i.e. the reds-purples-blues have a lower <code>S</code> value because they are percieved by the human eye as stronger for a given saturation value, so to have the same feel to the eye, the <code>S</code> needs to be a bit lower."
+		/>
 
 	<Card
 		title="Saturation curves"
@@ -68,7 +72,7 @@
 	/>
 
 	<ContentBox
-	text=""
+	text="Again, plotting against <code>color-500</code> to make comparison easier."
 	/>
 
 	<Card
