@@ -30,7 +30,7 @@
 		<div class="inline-block align-right">
 			<a rel=prefetch class="px-0 font-xs sm: font-sm md:px-4 md:font-base xl:px-6 text-amber-400 hover:text-yellow-300 uppercase inline-block" class:current={segment === undefined} href=".">Home</a>
 			<a rel=prefetch class="px-0 font-xs sm: font-sm md:px-4 md:font-base xl:px-6 text-amber-400 hover:text-yellow-300 uppercase inline-block" class:current={segment === "tailwind"} href="tailwind">tailwind</a>
-			<a rel=prefetch class="px-0 font-xs sm: font-sm md:px-4 md:font-base xl:px-6 text-amber-400 hover:text-yellow-300 uppercase inline-block" class:current={segment === "analysis"} href="analysis">analysis</a>
+			<a rel=prefetch class="px-0 font-xs sm: font-sm md:px-4 md:font-base xl:px-6 text-amber-400 hover:text-yellow-300 uppercase inline-block" class:current={segment === "analysis"} href="analysis">Color palette analysis</a>
 		</div>
 	</div>
 </nav>

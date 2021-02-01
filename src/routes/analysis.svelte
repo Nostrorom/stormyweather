@@ -63,8 +63,8 @@
 	/>
 	
 	<ContentBox
-	text="It is already pretty noticeable that the curves depend on the hue range. What we could call 'intense' vs 'soft' colors, i.e. the reds-purples-blues have a lower <code>S</code> value because they are percieved by the human eye as stronger for a given saturation value, so to have the same feel to the eye, the <code>S</code> needs to be a bit lower."
-		/>
+		text="It is already pretty noticeable that the curves depend on the hue range. What we could call 'intense' vs 'soft' colors, i.e. the reds-purples-blues have a lower <code>S</code> value because they are percieved by the human eye as stronger for a given saturation value, so to have the same feel to the eye, the <code>S</code> needs to be a bit lower."
+	/>
 
 	<Card
 		title="Saturation curves"
@@ -81,7 +81,7 @@
 	/>
 
 	<ContentBox
-	text=""
+	text="The <code>L</code> values also show curves that follow a comparable pattern, with a similar groupings compared to <code>S</code> curves, though with the yellow-oranges closer to the red-purples than the blue-greens this time."
 	/>
 
 	<Card
@@ -99,7 +99,46 @@
 	/>
 
 	<ContentBox
-	text=""
+		title="Observing the S and L values depending on the hue range"
+		text="The previous curves show that we could extract a pattern for the whole palette, with variations depending on the hue range. A more complete analysis will be necesasry to define rules for each of the <code>50-900</code> variations, but for the sake of example we can look at the <code>500</code> as the 'main' variation, then <code>50</code> and <code>900</code> at both ends."
+	/>
+
+	<Card
+		title="A cursory look at the gaps in the palette for Color-500"
+		image="hh_500.png"
+	/>
+
+	<Card
+		title="Saturation data for Color-500"
+		image="hs_500.png"
+	/>
+
+	<Card
+		title="Lightness data for Color-500"
+		image="hl_500.png"
+	/>
+	<ContentBox
+		text="In both plot charts above, a profile is pretty recognizable: there's a function that can be calculated, which would enable us to generate the <code>S</code> and <code>L</code> values for a given <code>H</code>, thus extending the color palette to any hue a user would like. Though less obvious, patterns can also been seen for the <code>50</code> and <code>900</code> values."
+	/>
+
+	<Card
+		title="Saturation data for Color-50"
+		image="hs_50.png"
+	/>
+
+	<Card
+		title="Lightness data for Color-50"
+		image="hl_50.png"
+	/>
+
+	<Card
+		title="Saturation data for Color-900"
+		image="hs_900.png"
+	/>
+
+	<Card
+		title="Lightness data for Color-900"
+		image="hl_900.png"
 	/>
 
 </div>
