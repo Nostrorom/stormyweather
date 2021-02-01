@@ -2,7 +2,8 @@
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/Footer.svelte';
 	import { stores } from '@sapper/app';
-    import GA from '../components/GA.svelte';
+    import GA_G from '../components/GA_G.svelte';
+    import GA_UA from '../components/GA_UA.svelte';
 
 	export let segment;
 </script>
@@ -14,7 +15,8 @@
 	}
 </style>
 
-<GA />
+<GA_G />
+<GA_UA />
 <Nav {segment}/>
 
 <body class="bg-gradient-to-br from-blueGray-50 to-white">
