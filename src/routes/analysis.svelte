@@ -104,7 +104,7 @@
 	/>
 
 	<Card
-		title="A cursory look at the gaps in the palette for Color-500"
+		title="A quick look at the gaps in the palette for Color-500"
 		image="hh_500.png"
 	/>
 
@@ -147,7 +147,7 @@
 	/>
 		
 	<ContentBox
-		title="While these graphs do not constitute a full analysis of the palette, they pretty convincingly display a recognizable pattern to the <code>HSL</code> values of the colors, meaning it is possible to create functions that would extrapolate the <code>50-900</code> variations from a given <code>500</code> color, with all variations matching in look and feel the 'official' tailwind color palette." 
+		quote="While these graphs do not constitute a full analysis of the palette, they pretty convincingly display a recognizable pattern to the <code>HSL</code> values of the colors, meaning it is possible to create functions that would extrapolate the <code>50-900</code> variations from a given <code>500</code> color, with all variations matching in look and feel the 'official' tailwind color palette." 
 	/>
 
 </div>
