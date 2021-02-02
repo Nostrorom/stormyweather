@@ -117,6 +117,7 @@
 		title="Lightness data for Color-500"
 		image="hl_500.png"
 	/>
+
 	<ContentBox
 		text="In both plot charts above, a profile is pretty recognizable: there's a function that can be calculated, which would enable us to generate the <code>S</code> and <code>L</code> values for a given <code>H</code>, thus extending the color palette to any hue a user would like. Though less obvious, patterns can also been seen for the <code>50</code> and <code>900</code> values."
 	/>
@@ -139,6 +140,14 @@
 	<Card
 		title="Lightness data for Color-900"
 		image="hl_900.png"
+	/>
+		
+	<ContentBox
+		title="Conclusion"
+	/>
+		
+	<ContentBox
+		title="While these graphs do not constitute a full analysis of the palette, they pretty convincingly display a recognizable pattern to the <code>HSL</code> values of the colors, meaning it is possible to create functions that would extrapolate the <code>50-900</code> variations from a given <code>500</code> color, with all variations matching in look and feel the 'official' tailwind color palette." 
 	/>
 
 </div>
