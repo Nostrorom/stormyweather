@@ -105,8 +105,11 @@
 
 	<Card
 		title="A quick look at the gaps in the palette for Color-500"
-		text="The most significant is in the <code>45-145</code> where only <code>lime</code> is occupying the space, meaning few options for developpers wishing to use that space."
 		image="hh_500.png"
+	/>
+
+	<ContentBox
+		text="The most significant is in the <code>45-145</code> where only <code>lime</code> is occupying the space, meaning few options for developpers wishing to use that space."
 	/>
 
 	<Card
