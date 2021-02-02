@@ -148,10 +148,7 @@
 		
 	<ContentBox
 		title="Conclusion"
-	/>
-		
-	<ContentBox
-		quote="While these graphs do not constitute a full analysis of the palette, they pretty convincingly display a recognizable pattern to the <code>HSL</code> values of the colors, meaning it is possible to create functions that would extrapolate the <code>50-900</code> variations from a given <code>500</code> color, with all variations matching in look and feel the 'official' tailwind color palette." 
+		text="While these graphs do not constitute a full analysis of the palette, they pretty convincingly display a recognizable pattern to the <code>HSL</code> values of the colors, meaning it is possible to create functions that would extrapolate the <code>50-900</code> variations from a given <code>500</code> color, with all variations matching in look and feel the 'official' tailwind color palette." 
 	/>
 
 </div>
