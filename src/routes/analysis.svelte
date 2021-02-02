@@ -18,7 +18,7 @@
 	/>
 	
 	<ContentBox
-		text="As with any assumption, it's still needs to be tested to be discarded. A cursory <code>RGB</code> analysis did indeed not provide much insight into how the colors relate to each other."
+		text="As with any assumption, it still needs to be tested to be discarded. A cursory <code>RGB</code> analysis did indeed not provide much insight into how the colors relate to each other."
 	/>
 
 	<ContentBox
