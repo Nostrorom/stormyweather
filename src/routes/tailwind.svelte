@@ -52,17 +52,13 @@
 	<ContentBox
 		text="If there's one thing that's begging for simplification, it's ecommerce. Anyone who'd tried to customize some php-based solutions (no names ;)) will know what I mean. <em>*shivers*</em>"	
 	/>
-	
-	<ContentBox
-		quote="Spearheading a new e-commerce package for Tailwind UI by researching and cataloging common e-commerce UI patterns, mapping out component categories, and designing the new components and page examples"
-	/>
 
 	<ContentBox
-		text="Designing an interface for selecting between multiple color palette options in Tailwind UI"	
+		quote="Designing an interface for selecting between multiple color palette options in Tailwind UI"	
 	/>
 	
 	<ContentBox
-		quote="Oh yeah ! I have a full section just for that."
+		text="Oh yeah ! I have a full section just for that."
 	/>
 
 
