@@ -15,11 +15,14 @@
 	nav {
 		height: 6vh;
 	}
+	.navItems {
+		max-width: 70em;
+	}
 </style>
 
 
 <nav class="flex fixed top-0 z-30 w-screen mb-0 flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-gradient-to-l from-indigo-900 via-lightBlue-700 to-cyan-600">
-	<div class="container w-4/5 px-4 mx-auto flex flex-wrap items-center justify-between">
+	<div class="container navItems px-4 mx-auto flex flex-wrap items-center justify-between">
 	  <div class="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
 		<a sapper:prefetch class="flex cursor-pointer items-center" href=".">
 			<img src="highseas-blue.svg" alt="highseas logo" class="inline-block h-8 p-1">
