@@ -61,6 +61,4 @@
 		text="Oh yeah ! I have a full section just for that."
 	/>
 
-
-
 </div>
