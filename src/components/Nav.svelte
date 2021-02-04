@@ -1,14 +1,12 @@
 <script>
+	let innerWidth;
+  	$: showMenu = innerWidth >= 1024;
+	
 	const toggleMenu = () => {
 		showMenu = !showMenu;
 	}
 
 	export let segment;
-
-	let showMenu = true;
-
-  	let innerWidth;
-  	$: showMenu = innerWidth >= 1024;
 </script>
 
 <svelte:window bind:innerWidth />
@@ -48,13 +46,6 @@
 				<a sapper:prefetch class="rounded-md p-1 font-xs sm:font-sm md:px-4 md:font-base xl:px-6 hover:text-yellow-200 hover:bg-blue-900 hover:bg-opacity-60 focus:bg-lightBlue-700 focus:bg-opacity-80 uppercase inline-block focus:outline-none" class:text-yellow-200={segment === "analysis"} href="analysis">Color palette analysis</a>
 			</li>
 		</ul>
-			<!-- <div class="hidden lg:inline-block">
-				<button on:click={toggleMenu} class="cursor-pointer leading-none h-8 py-1 focus:outline-none text-amber-400 align-right" type="button">
-					<svg class="h-full" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-					</svg>
-				</button>
-			</div> -->
 	  </div>
 	</div>
   </nav>
