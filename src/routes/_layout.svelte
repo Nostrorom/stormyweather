@@ -20,7 +20,7 @@
 <Nav {segment}/>
 
 <body class="bg-gradient-to-br from-blueGray-50 to-white">
-	<main class="relative mx-auto pb-16 shadow-md bg-white rounded-b-lg">
+	<main class="absolute mx-auto pb-16 shadow-md bg-white rounded-b-lg">
 		<slot></slot>
 	</main>
 </body>
