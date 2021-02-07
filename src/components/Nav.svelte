@@ -18,6 +18,9 @@
 	.navItems {
 		max-width: 70em;
 	}
+	a.current {
+		color: #FDE68A;
+	}
 </style>
 
 
@@ -37,13 +40,17 @@
 	  <div class="lg:flex flex-grow items-center justify-end">
 		<ul class="flex flex-col lg:flex-row list-none ml-auto text-right" class:hidden={showMenu === false}>
 			<li class="text-amber-400">
-				<a sapper:prefetch class="rounded-md p-1 font-xs sm:font-sm md:px-4 md:font-base xl:px-6 hover:text-yellow-200 hover:bg-blue-900 hover:bg-opacity-60 focus:bg-lightBlue-700 focus:bg-opacity-80 uppercase inline-block focus:outline-none" class:text-yellow-200={segment === undefined} href=".">Home</a>
+				<a sapper:prefetch class="rounded-md p-1 font-xs sm:font-sm md:px-4 md:font-base xl:px-6 hover:text-yellow-200 hover:bg-blue-900 hover:bg-opacity-60 focus:bg-lightBlue-700 focus:bg-opacity-80 uppercase inline-block focus:outline-none" class:current={segment === undefined} href=".">Home</a>
 			</li>
 			<li class="text-amber-400">
-				<a sapper:prefetch class="rounded-md p-1 font-xs sm:font-sm md:px-4 md:font-base xl:px-6 hover:text-yellow-200 hover:bg-blue-900 hover:bg-opacity-60 focus:bg-lightBlue-700 focus:bg-opacity-80 uppercase inline-block focus:outline-none" class:text-yellow-200={segment === "tailwind"} href="tailwind">tailwind</a>
+				<a sapper:prefetch class="rounded-md p-1 font-xs sm:font-sm md:px-4 md:font-base xl:px-6 hover:text-yellow-200 hover:bg-blue-900 hover:bg-opacity-60 focus:bg-lightBlue-700 focus:bg-opacity-80 uppercase inline-block focus:outline-none" class:current={segment === "portfolio"} href="analysis">Portfolio</a>
 			</li>
 			<li class="text-amber-400">
-				<a sapper:prefetch class="rounded-md p-1 font-xs sm:font-sm md:px-4 md:font-base xl:px-6 hover:text-yellow-200 hover:bg-blue-900 hover:bg-opacity-60 focus:bg-lightBlue-700 focus:bg-opacity-80 uppercase inline-block focus:outline-none" class:text-yellow-200={segment === "analysis"} href="analysis">Color palette analysis</a>
+				<a sapper:prefetch class="rounded-md p-1 font-xs sm:font-sm md:px-4 md:font-base xl:px-6 hover:text-yellow-200 hover:bg-blue-900 hover:bg-opacity-60 focus:bg-lightBlue-700 focus:bg-opacity-80 uppercase inline-block focus:outline-none" class:current={segment === "tailwind"} href="tailwind">tailwind</a>
+			</li>
+
+			<li class="text-amber-400">
+				<a sapper:prefetch class="rounded-md p-1 font-xs sm:font-sm md:px-4 md:font-base xl:px-6 hover:text-yellow-200 hover:bg-blue-900 hover:bg-opacity-60 focus:bg-lightBlue-700 focus:bg-opacity-80 uppercase inline-block focus:outline-none" class:current={segment === "analysis"} href="analysis">Color palette analysis</a>
 			</li>
 		</ul>
 	  </div>

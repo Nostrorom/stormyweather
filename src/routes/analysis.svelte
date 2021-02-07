@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>Analysis</title>
+  <title>HS - Palette</title>
 </svelte:head>
 
 <div class="w-4/5 mx-auto py-4">
